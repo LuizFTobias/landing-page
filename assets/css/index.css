@@ -3,6 +3,8 @@
 body {
   max-width: 1440px;
   height: 605px;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
 }
 /* estilização do header */
 .banner {
@@ -51,7 +53,6 @@ h1 {
   font-weight: 900;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  line-height: 46.96px;
   font-size: 40px;
 }
 
@@ -61,4 +62,148 @@ h1 {
   word-wrap: break-word;
   font-size: 19px;
   font-weight: 400;
+  line-height: 1.5;
+}
+
+button {
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: rgba(49, 168, 221, 1);
+  border: 2px solid;
+  border-color: linear-gradient rgba(59, 161, 205, 1), rgba(21, 114, 183, 1);
+  padding: 30px 90px;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+#course-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: auto;
+  height: 363px;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  border-top: 1px solid rgba(51, 168, 219, 1);
+  border-bottom: 1px solid rgba(51, 168, 219, 1);
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+
+.course-container {
+  display: inherit;
+  flex-direction: column;
+  width: 792px;
+  align-items: center;
+  justify-content: center;
+}
+.course-container h2 {
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: rgba(51, 168, 219, 1);
+  text-transform: uppercase;
+}
+
+.course-container p {
+  font-size: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  line-height: 1.5;
+}
+
+.modules-list span {
+  color: rgba(51, 168, 219, 1);
+}
+
+.module {
+  background-color: rgba(37, 37, 37, 1);
+  border: 1px solid rgba(51, 168, 219, 1);
+  text-align: center;
+  border-radius: 57px;
+  padding: 16px 80px;
+  margin-bottom: 24px;
+  box-shadow: inset -1px -6px 17px 2px rgba(0, 0, 0, 1);
+  letter-spacing: 1.5px;
+}
+
+#transform-world {
+  background-image: url("../images/woman-code.png"); /* Caminho relativo para a pasta de imagens */
+  background-size: cover; /* Ajuste o dimensionamento da imagem de fundo */
+  background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+  height: 300px;
+  background-position: center center;
+  background-color: black;
+  width: auto;
+  border: 1px solid rgba(51, 168, 219, 1);
+  border-left: 0;
+}
+
+#transform-world > p {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 35px;
+  height: 111px;
+  text-align: left;
+  text-transform: lowercase;
+  margin-left: 180px;
+  padding-top: 65px;
+  letter-spacing: 0.5px;
+  text-shadow: 3px 3px 2px rgba(51, 168, 219, 1);
+}
+
+#professional-challenges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+#professional-challenges > h2 {
+  color: rgba(51, 168, 219, 1);
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-top: 76px;
+  width: 746px;
+  text-align: center;
+  line-height: 37px;
+  letter-spacing: 1px;
+}
+
+.chamativa {
+  color: rgba(255, 255, 255, 1);
+  width: 50%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+footer {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(0, 7, 10),
+    rgb(0, 9, 12),
+    rgb(0, 13, 18),
+    rgb(0, 18, 25),
+    rgb(2, 33, 46)
+  );
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  border-top: 1px solid rgba(51, 168, 219, 1);
+  padding-top: 58px;
+  padding-bottom: 20px;
+}
+
+footer a {
+  color: rgba(51, 168, 219, 1);
+  text-decoration: none;
+  font-size: 16px;
 }
